@@ -1,0 +1,50 @@
+# Keil MDK-ARM build artifacts
+**/Debug/
+**/Release/
+ITcar/MDK-ARM/ITcar/
+*.axf
+*.bin
+*.build_log.htm
+*.crf
+*.d
+*.dep
+*.elf
+*.hex
+*.htm
+*.iex
+*.lnp
+*.lst
+*.map
+*.o
+*.sct
+
+# Keil MDK-ARM local user settings
+*.uvguix.*
+*.uvoptx
+
+# STM32CubeIDE local workspace metadata
+.cproject
+.project
+.settings/
+
+# CMSIS packages not referenced by this Cortex-M3/STM32F1 project
+ITcar/Drivers/CMSIS/Core/
+ITcar/Drivers/CMSIS/Core_A/
+ITcar/Drivers/CMSIS/DSP/
+ITcar/Drivers/CMSIS/Lib/
+ITcar/Drivers/CMSIS/NN/
+ITcar/Drivers/CMSIS/RTOS/
+ITcar/Drivers/CMSIS/RTOS2/
+ITcar/Drivers/CMSIS/docs/
+
+# Editor, EDA temp files, and operating-system files
+.vscode/
+.idea/
+*.eprj2-shm
+*.eprj2-wal
+*.lock
+*.bak
+*.swp
+*~
+Thumbs.db
+.DS_Store
